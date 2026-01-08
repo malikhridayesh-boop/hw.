@@ -1,0 +1,51 @@
+body {
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: rgb(0, 255, 213);
+    text-align: center;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+h1+p {
+    color: crimson;
+}
+
+ul li:nth-child(1) {
+    color: chartreuse;
+}
+
+ul li:nth-child(2) {
+    color: hotpink;
+}
+
+ul li:nth-child(3) {
+    color: navy;
+}
+
+ul li:nth-child(1):before {
+    content: "";
+}
+
+ul li:nth-child(2):before {
+    content: "";
+}
+
+ul li:nth-child(3):before {
+    content: "";
+}
